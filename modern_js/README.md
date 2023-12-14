@@ -7,3 +7,7 @@ Null - Explicitly set a variable
 Undefined - Variables that aren't defined yet
 Object - Complex data structures (Arrays, Dates, Literals, etc...)
 Symbol - Used with objects..
+
+# Control Flow
+- Use loops for cycling through data
+- Use conditional statement for checking conditions
