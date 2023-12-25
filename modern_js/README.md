@@ -75,5 +75,12 @@ html -> body -> h1
 - ID = #id
 - CSS Class = .class
 - Tag with Class = tag.class
-- * = all
+- - = all
 
+# Form Events
+
+- Capture data or information from a user
+- Eg: a username or password
+- "submit" event is when a user clicks the submit button
+- "keyboard" events is when we can know if the user has pressed something...
+- RegEx is used to make sure that the value entered by the user is useful..
