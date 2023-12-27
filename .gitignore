@@ -128,9 +128,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-.history/sandbox_20231227115528.js
-.history/sandbox_20231227115522.js
-.history/other_versions/chaining_20231227115526.js
-.history/other_versions/chaining_20231227115539.js
-.history/sandbox_20231227115524.js
-.history/sandbox_20231227115544.js
+.history/
