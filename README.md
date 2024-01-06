@@ -84,3 +84,17 @@ html -> body -> h1
 - "submit" event is when a user clicks the submit button
 - "keyboard" events is when we can know if the user has pressed something...
 - RegEx is used to make sure that the value entered by the user is useful..
+
+# Async JavaScript
+
+## What is Asynchronous JavaScript?
+
+One of the most important part of the javascript.
+Governs how we perform tasks which take some time to complete (Getting data from a database)
+Code that can start something now and finish it later
+Synchronous javascript is where each statement is executed in an order, ane after the other and also only 1 at one time.
+Block code blocks the next statement from running.
+
+## What are HTTP Requests?
+
+Make HTTP requests to get data from another server. We make these requests to API endpoints.
