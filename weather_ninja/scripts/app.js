@@ -6,11 +6,6 @@ const updateCity = async (city) => {
     cityDets,
     cityWeather,
   };
-  // Both the above and below is the same
-  // return {
-  //   cityDets: cityDets,
-  //   cityWeather: cityWeather,
-  // };
 };
 location_form.addEventListener("submit", (e) => {
   e.preventDefault();
