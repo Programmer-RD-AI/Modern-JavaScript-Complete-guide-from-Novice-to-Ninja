@@ -13,13 +13,3 @@ const getConditions = async (cityCode) => {
   const data = await response.json();
   return data;
 };
-getCity("colombo")
-  .then((data) => {
-    return getConditions(data["Key"]);
-  })
-  .then((conditions) => {
-    console.log(conditions[0]["Temperature"]["Metric"]);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
