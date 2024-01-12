@@ -6,4 +6,4 @@ let name = localStorage.getItem("name");
 let age = localStorage.getItem("age");
 console.log(name, age);
 // update data
-localStorage.removeItem("age");
+localStorage.setItem("name", "gsfgsfd");
