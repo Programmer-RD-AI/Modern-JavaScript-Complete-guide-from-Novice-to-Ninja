@@ -4,20 +4,19 @@ const location_form = document.querySelector("form");
 const time = document.querySelector("img.time");
 const icon = document.querySelector(".icon img");
 const updateUI = ({ cityDets, cityWeather }) => {
-  console.log(cityWeather);
-  icon.setAttribute("src", `./imgs/icons/${cityWeather[0]["WeatherIcon"]}.svg`);
-  icon.setAttribute("alt", cityWeather[0]["WeatherIcon"]);
   details.innerHTML = `
-  <h5 class="my-3">${cityDets[0]["EnglishName"]}</h5>
+  <h5 class="my-3">${cityDets["EnglishName"]}</h5>
           <div class="my-3">${cityWeather[0]["WeatherText"]}</div>
           <div class="display-4 my-4">
             <span>${cityWeather[0]["Temperature"]["Metric"]["Value"]}</span>
             <span>&deg;C</span>
           </div>`;
-  let timeSrc = "./imgs/icons/night.svg";
-  if (cityWeather[0]["IsDayTime"] === true) {
-    timeSrc = "./imgs/icons/day.svg";
-  }
+  const iconSrc = `/imgs/icons/${cityWeather[0]["WeatherIcon"]}.svg`;
+  icon.setAttribute("src", iconSrc);
+  let timeSrc = cityWeather[0]["IsDayTime"]
+    ? "./imgs/day.svg"
+    : "./imgs/night.svg";
+  time.setAttribute("src", timeSrc);
   if (card.classList.contains("d-none")) {
     card.classList.remove("d-none");
   }
