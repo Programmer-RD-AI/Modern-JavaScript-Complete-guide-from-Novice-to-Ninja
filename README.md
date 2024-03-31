@@ -100,5 +100,6 @@ Block code blocks the next statement from running.
 Make HTTP requests to get data from another server. We make these requests to API endpoints.
 
 # Object-Oriented Programming
-## What is OOP?
+## Classes
 
+A blueprint for an object (describes how it should be constructed)
